@@ -36,7 +36,8 @@ Array.from(buttons).forEach((button)=>{
         }
         else if(keyName == "A"){
             string = ""
-            document.querySelector('input').
+            document.querySelector('input').value = string;
         }
+        
     })
 })
