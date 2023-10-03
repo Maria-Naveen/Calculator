@@ -27,3 +27,12 @@ Array.from(buttons).forEach((button)=>{
 
     })
 })
+Array.from(buttons).forEach((button)=>{
+    button.addEventListener('keydown',(event)=>{
+        let keyName = event.key;
+        if(keyName == "="){
+            string = eval(string);
+            document.querySelector('input').value = string;
+        }
+    })
+})
