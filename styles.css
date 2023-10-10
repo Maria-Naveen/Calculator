@@ -16,6 +16,8 @@ h1{
   min-width: 20vw;
   border: 1px solid black;
   border-radius: 9px;
+  width: 20em;
+  margin: 0 auto;
 }
 .row{
   margin: 4px 4px;
