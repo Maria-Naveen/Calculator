@@ -19,6 +19,14 @@ h1{
   width: 20em;
   margin: 0 auto;
 }
+.second .container textarea {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 9px;
+  font-size: 18px; /* Adjust font size as needed */
+  padding: 0.5rem;
+}
 .row{
   margin: 4px 4px;
   padding: 2px;
